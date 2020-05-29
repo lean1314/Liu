@@ -1,0 +1,9 @@
+<!-- 搜索栏 -->
+<searchbar isnavigator="{{true}}"></searchbar> 
+<!-- 列表 -->
+<view class='container' >
+  <view wx:for="{{thumbnail.neirong}}" wx:key="unique" wx:if="{{pt==item.category}}"> 
+    <thumbnail imagelink="{{item.image}}" productname="{{item.productname}}" starrate="{{item.rate}}" itemurl="/pages/detail/detail?pid={{item.productid}}">
+    </thumbnail>
+  </view>
+</view>

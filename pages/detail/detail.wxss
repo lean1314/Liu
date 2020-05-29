@@ -1,0 +1,77 @@
+/* 产品图片 */
+.photobox{
+  display: flex;
+  justify-content: center;
+}
+.photo{
+  width:350rpx;
+  height:350rpx;
+}
+/* 产品简介 */
+.item-header{
+  padding:10rpx 40rpx;
+}
+.item-header .item-title{
+  text-align: center;
+  font-size: 30rpx;
+}
+.item-detail .item-rate{
+  padding-bottom: 20rpx;
+}
+.item-detail .comment-input{
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  font-size: 25rpx;
+  color:#FFFFFF;
+  background-color: goldenrod;
+  border-radius: 20rpx;
+  display: flex; 
+  justify-content: center;
+  margin: 0 auto;
+  height:50rpx;
+  width:150rpx;
+  line-height: 50rpx;
+}
+.item-detail .item-pbi{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color:#757474;
+}
+.item-detail .item-sub-rate{
+  padding:20rpx;
+  font-size: 25rpx;
+  color: #494949;
+  background-color:#f9f9f9;
+  border-radius: 20rpx;
+  border-top:10rpx solid rgb(235, 192, 86);
+  border-bottom: 10rpx solid rgb(235, 192, 86);
+}
+/* 用户评价展示 */
+.comment-list-group{
+  margin-bottom: 50rpx;
+  padding:0rpx 40rpx;
+  
+}
+.comment-list-group .comment-title{
+  font-size: 30rpx;
+  color:#757474;
+  margin-bottom: 10rpx;
+}
+.comment-list-group .comment-group{
+  background-color:#f9f9f9;
+  border-radius: 20rpx;
+  border-top:10rpx solid rgb(235, 192, 86) ;
+  border-bottom: 10rpx solid rgb(235, 192, 86);
+}
+/* 查看更多评价
+.more-comment{
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  font-size: 25rpx;
+  color:rgb(235, 199, 102);
+} */
+
+

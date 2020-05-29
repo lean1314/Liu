@@ -1,0 +1,8 @@
+<navigator  url='/pages/list1/list1?pt={{categoryname}}' class="category-navigator">
+  <view class="category-group">
+    <view class="category-img">
+      <image class='image' src='{{imagelink}}'></image>
+    </view>
+    <view class="category-info">{{categoryname}}</view>
+  </view>
+</navigator>

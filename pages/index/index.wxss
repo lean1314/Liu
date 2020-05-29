@@ -1,0 +1,62 @@
+/* 轮播图 */
+.blankspace{
+  width:100%;
+  height:300rpx;
+}
+swiper {
+  height: 300rpx;
+  } 
+swiper-item image {
+  width: 100%;
+  height: 100%;
+  }
+.swiper-container{ 
+  position: relative;
+  margin-top:-300rpx;
+  } 
+.swiper-container .swiper{ 
+  height: 300rpx;
+  }
+.swiper-container .swiper .img{
+  width: 100%; 
+  height: 100%;
+  }
+/* 分类导航 */
+.plate{
+  display: inline-block;
+  padding:40rpx; 
+  height:120rpx;
+  background: #fff;
+}
+/* 今日推荐 */
+.module-group{
+  padding:40rpx;
+  background-color:#ffffff;
+}
+.module-group .module-top{
+  height:60rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  /* background-color:#f9f9f9;
+  border-radius: 10rpx; */
+}
+.module-top .module-title{
+  color:#757474;
+  justify-content: center;  
+  text-align: center;
+  line-height: 60rpx;
+}
+.module-top .module-more{
+  color:#494949;
+  justify-content: center;  
+  text-align: center;
+  line-height: 60rpx;
+}
+.module-scroll-view{
+  margin-top:20rpx;
+  width:100%;
+  height:300rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}

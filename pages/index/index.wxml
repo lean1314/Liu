@@ -1,0 +1,46 @@
+<!-- 搜索栏 -->
+<searchbar isnavigator="{{true}}"></searchbar> 
+<view class="blankspace"></view>
+<!-- 轮播图 -->
+<view class="swiper-group">
+  <view class="swiper-container">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" indicator-color="{{indicatorCo}}" indicator-active-color="{{indicatoraAC}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" class="img" bindtap="swipclick" mode="aspectFill"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+<!-- 分类导航 -->
+<view class="plate" >
+  <category producttype="1" imagelink="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3670141513,2936583768&fm=26&gp=0.jpg" categoryname="肉类制品"></category>
+  <category producttype="2" imagelink="http://img0.imgtn.bdimg.com/it/u=253246282,279187406&fm=26&gp=0.jpg" categoryname="休闲膨化"></category>
+  <category producttype="3" imagelink="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1996206736,97852141&fm=26&gp=0.jpg" categoryname="坚果蜜饯"></category>
+  <category producttype="4" imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2947940869,2433411301&fm=15&gp=0.jpg" categoryname="糕点饼干"></category>
+  <category producttype="5" imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3829690891,942889441&fm=26&gp=0.jpg" categoryname="糖果"></category>
+  <category producttype="6" imagelink="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1256962051,1638451730&fm=26&gp=0.jpg" categoryname="饮品"></category>
+  <category producttype="7" imagelink="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2027075838,553061503&fm=26&gp=0.jpg" categoryname="雪糕"></category>
+  <category producttype="8" imagelink="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=253572468,1416350504&fm=26&gp=0.jpg" categoryname="其它"></category>
+</view>
+<!-- 今日推荐 -->
+<view class='module-group'>
+  <view class='module-top'>
+     <view class='module-title'>今日推荐</view>
+     <navigator class='module-more' url='/pages/list/list'>更多></navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x="{{true}}">
+    <thumbnail imagelink="http://img4.imgtn.bdimg.com/it/u=1715709891,3645395543&fm=26&gp=0.jpg" productname="费列罗 ROCHER" starrate="9.0" itemurl="/pages/detail/detail?pid=500001">
+    </thumbnail>
+    <thumbnail imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3090522393,3739928051&fm=26&gp=0.jpg" productname="皇冠丹麦曲奇" starrate="7.8" itemurl="/pages/detail/detail?pid=400001"> 
+    </thumbnail>
+    <thumbnail imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3697771356,846557372&fm=26&gp=0.jpg" productname="RIO（蓝玫瑰味）" itemurl="/pages/detail/detail?pid=600002">
+    </thumbnail>
+    <thumbnail imagelink="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1087216320,1725897980&fm=26&gp=0.jpg" productname="母亲牛肉棒（原味）" starrate="8.8" itemurl="/pages/detail/detail?pid=100002">
+    </thumbnail>
+    <thumbnail imagelink="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1338506,1963611478&fm=26&gp=0.jpg" productname="溜溜梅 清梅" starrate="8.3" itemurl="/pages/detail/detail?pid=300001">
+    </thumbnail>
+  </scroll-view>
+</view>
+

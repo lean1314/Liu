@@ -1,0 +1,35 @@
+<!-- 产品图片 -->
+<view class='photobox' wx:for="{{detail.neirong}}" wx:key="unique" wx:if="{{pid == item.productid}}">
+  <image class='photo' src='{{item.image}}'></image>
+</view>
+<!-- 产品简介 -->
+<view class='item-header' wx:for="{{detail.neirong}}" wx:key="unique" wx:if="{{pid == item.productid}}">
+  <view class='item-title'>{{item.productname}}</view>
+  <view class='item-detail'>
+    <view class='item-rate'>
+      <stars rate='{{item.rate}}' starsize='40' fontsize='30'></stars>
+    </view>
+    <navigator class="comment-input" url="/pages/comment/comment?pid={{item.productid}}">我要评价</navigator>
+    <view class='item-pbi'>产品简介</view> 
+    <view class='item-sub-rate'>
+      <view class='item-category'>品类：{{item.category}}</view>
+      <view class='item-pop'>产地：{{item.pop}}</view>
+      <view class='item-quantity'>规格：{{item.quantity}}</view>
+      <view class='item-price'>参考价格：{{item.price}}元</view>
+      <view class='item-ingredient'>配料表：{{item.ingredient}}</view>
+      <view class='item-ed'>保质期：{{item.ed}}</view>
+      <navigator target = "miniProgram" app-id="wx32540bd863b27570" open-type='navigate' path="{{item.shoppath}}">购买链接</navigator>
+    </view>
+  </view>
+</view>
+
+<!-- 用户评论 -->
+<view class='comment-list-group'>
+  <view class='comment-title'>用户评论</view>
+  <scroll-view class='comment-group' scroll-y="true" style="height: 600rpx;">
+    <view wx:for="{{pinglun.neirong}}" wx:key="unique" wx:if="{{pid==item.productid}}">
+      <comment  grade="{{item.grade}}" content="{{item.content}}" shijian="{{item.shijian}}"></comment></view>
+  </scroll-view>
+</view>
+<!-- <navigator class='more-comment'>查看更多用户评论</navigator> -->
+

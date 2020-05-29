@@ -1,0 +1,13 @@
+<view class='comment-group'>
+    <view class='comment-left'>
+      <image class='user-hp' src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1587912323,3571610491&fm=26&gp=0.jpg"></image>
+    </view>
+    <view class='comment-right'>
+      <view class='user-name-rate'>
+        <text class='user-name'>耿鬼</text>
+        <stars rate="{{grade}}" starsize="30" fontsize="25" istext="{{false}}"></stars>
+      </view>
+      <view class='release-time'>{{shijian}}</view>
+      <view class='content'>{{content}}</view>
+    </view>
+</view>

@@ -1,0 +1,20 @@
+
+<searchbar bindsearchinput="onsearchinputevent"></searchbar>
+
+<!-- 历史记录 -->
+<!-- <view class='history-list-group'>
+  <view class='history-title'>
+    <view class='title'>历史记录</view>
+    <view class='clear'>清除</view>
+  </view>
+  <navigator class='history-group'>可口可乐</navigator>
+</view> -->
+<!-- 搜索结果 -->
+<wxs src="../../utils/indexOf.wxs" module="tools" />
+ <view class='container'> 
+  <view wx:for="{{thumbnail.neirong}}" wx:key="unique" wx:if="{{tools.indexOf(item.productname,value)>=1}}">
+    <thumbnail imagelink="{{item.image}}" productname="{{item.productname}}" starrate="{{item.rate}}" itemurl="/pages/detail/detail?pid={{item.productid}}">
+    </thumbnail>
+  </view>
+ </view>
+

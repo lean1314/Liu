@@ -1,0 +1,56 @@
+.ad_popError{
+  color: #e9360a; 
+  height: 70rpx; 
+  line-height: 58rpx; 
+  font-size: 30rpx; 
+  text-align: center; 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 100%;}
+.rate-input-group{
+  display: flex; 
+  justify-content: center;  
+  margin: 0 auto;
+  width:80%;
+  height:60rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  border: 5rpx solid rgb(236, 198, 100);
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.rate-input{
+  height:40rpx;
+  font-size:15px;
+  text-align: center;
+}
+.comment-input-group{
+  display: flex; 
+  justify-content: center;  
+  margin: 0 auto;
+  width:80%;
+  height:600rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  border: 5rpx solid rgb(236, 198, 100);
+}
+.comment-input{
+  width:100%;
+  height:600rpx;
+  font-size:15px;
+  text-align: center;
+}
+.tip{
+  color: #494949;
+  font-size:12px;
+  margin-left: 70rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+.comment-button{
+  margin-top: 50rpx;
+  width:80%;
+  justify-content: center; 
+  background-color:rgb(236, 198, 100) ; 
+}

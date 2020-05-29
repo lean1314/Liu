@@ -1,0 +1,26 @@
+/* 历史记录
+.history-list-group{
+  padding:10rpx 20rpx;
+  
+}
+.history-list-group .history-title{
+  background-color: #f9f9f9;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx 10rpx;
+  font-size: 28rpx;
+  color: #757474;
+}
+.history-list-group .history-group{
+  font-size: 28rpx;
+  padding: 20rpx 10rpx;
+  border-bottom: 1px solid #757474;
+} */
+/* 搜索结果 */
+.container {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:30rpx;
+}

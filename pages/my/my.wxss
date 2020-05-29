@@ -1,0 +1,30 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#000000
+  }
+.userinfo-avatar {
+    width: 120rpx;
+    height: 120rpx;
+    margin-top: 30rpx;
+    border-radius: 50%;
+  }
+.userinfo-nickname {
+    color:rgb(235, 192, 86);
+    margin-bottom: 30rpx;
+  }
+
+.box{
+    display: flex; 
+    justify-content: center;  
+    text-align: center;
+    line-height: 300rpx;
+    width: 300rpx;
+    height:300rpx;
+    background-color: rgb(235, 192, 86);
+    border-radius: 50%; 
+    margin: 0 auto;
+    margin-top: 100rpx;
+}
+

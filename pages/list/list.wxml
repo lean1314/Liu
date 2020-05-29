@@ -1,0 +1,17 @@
+<!-- 搜索栏 -->
+<searchbar isnavigator="{{true}}"></searchbar> 
+<!-- 列表 -->
+<view class='container'>
+  <thumbnail imagelink="http://img4.imgtn.bdimg.com/it/u=1715709891,3645395543&fm=26&gp=0.jpg" productname="费列罗 ROCHER" starrate="9.0" itemurl="/pages/detail/detail?pid=500001">
+  </thumbnail>
+  <thumbnail imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3090522393,3739928051&fm=26&gp=0.jpg" productname="皇冠丹麦曲奇" starrate="7.8" itemurl="/pages/detail/detail?pid=400001"> 
+  </thumbnail>
+  <thumbnail imagelink="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3697771356,846557372&fm=26&gp=0.jpg" productname="RIO（蓝玫瑰味）" itemurl="/pages/detail/detail?pid=600002">
+  </thumbnail>
+  <thumbnail imagelink="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1087216320,1725897980&fm=26&gp=0.jpg" productname="母亲牛肉棒（原味）" starrate="8.8" itemurl="/pages/detail/detail?pid=100002">
+  </thumbnail>
+  <thumbnail imagelink="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1338506,1963611478&fm=26&gp=0.jpg" productname="溜溜梅 清梅" starrate="8.3" itemurl="/pages/detail/detail?pid=300001">
+  </thumbnail>
+  <thumbnail imagelink="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=477266516,2724604049&fm=26&gp=0.jpg" productname="大白兔奶糖" starrate="8.3" itemurl="/pages/detail/detail?pid=500002">
+  </thumbnail>
+</view>

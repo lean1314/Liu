@@ -1,0 +1,32 @@
+.searchbar{
+  background-color:#000000;
+  padding:20rpx
+}
+.search-navigator{
+  width:100%;
+  height:60rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  background-image: url("https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1588065289&di=4fa0eb5e209037acf22e5e2f302b87de&src=http://pic.90sjimg.com/design/01/50/43/65/5935233b65839.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+.search-input-group{
+   width:100%;
+   height:60rpx;
+   background-color: #ffffff;
+   border-radius: 10rpx;
+   padding:10rpx 20rpx;
+   box-sizing:border-box;
+}
+.search-input{
+   min-height:40rpx;
+   height:40rpx;
+   font-size:14px;
+}
+/* .search-button{
+  width:20%;
+  height:60rpx;
+  font-size: 24rpx;
+} */

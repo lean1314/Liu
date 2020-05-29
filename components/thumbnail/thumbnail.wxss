@@ -1,0 +1,29 @@
+.item-navigator{
+  width:200rpx;
+  margin-right:20rpx;
+  display: inline-block;
+}
+/* 最后不留空 */
+.item-navigator:last-of-type{
+  margin-right: 0;
+}
+
+.item-navigator .item-group{
+  width:100%;
+}
+.item-group .thumbnail-group{
+  width:100%;
+  height:200rpx;
+}
+.thumbnail-group .thumbnail{
+  width:100%;
+  height:100%;
+}
+.item-group .item-title{
+  font-size: 10px;
+  text-align: center;
+  margin-top:10rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
