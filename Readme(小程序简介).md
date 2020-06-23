@@ -64,11 +64,11 @@ db=SQLAlchemy(app)
 
 **前端**
 
-![前端流程图](https://github.com/lean1314/Liu/tree/test/images前端流程图.png)
+![前端流程图](https://github.com/lean1314/Liu/blob/test/images/前端流程图.png)
 
 **后端**
 
-![后端流程图](https://github.com/lean1314/Liu/tree/test/images后端流程图.jpg)
+![后端流程图](https://github.com/lean1314/Liu/tree/test/images/后端流程图.jpg)
 
 **总体闭环设计**
 
